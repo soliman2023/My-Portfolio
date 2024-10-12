@@ -4,6 +4,7 @@ const navigation = [
     { name: 'Dashboard', href: '#', current: true },
     { name: 'Tech Skills', href: '#Skills', current: false },
     { name: 'Work Experiences', href: '#Work', current: false },
+    { name: 'Volunteering Experiences', href: '#Volunteering', current: false },
     { name: 'Projects', href: '#Projects', current: false },
 ]
 
@@ -40,7 +41,7 @@ export default function Navbar() {
             <div className="navbar-end">
                 <ul className="menu menu-horizontal ">
                     <li>
-                        <a href="https://linkedin.com/in/mostafa-rawash" target="_blank " aria-label="social-linkedin" className="tooltip p-2 tooltip-bottom" data-tip="linkedin">
+                        <a href="https://www.linkedin.com/in/mostafa-ahmed-soliman/" target="_blank " aria-label="social-linkedin" className="tooltip p-2 tooltip-bottom" data-tip="Check Out linkedin">
                             <span class="[&>svg]:h-5 [&>svg]:w-5">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +55,7 @@ export default function Navbar() {
                     </li>
 
                     <li>
-                        <a href="https://github.com/Mostafa-Rawash" target="_blank " aria-label="social-github" className="tooltip p-2 tooltip-bottom" data-tip="github">
+                        <a href="https://github.com/soliman2023" target="_blank " aria-label="social-github" className="tooltip p-2 tooltip-bottom" data-tip="Check Out github">
                             <span class="[&>svg]:h-5 [&>svg]:w-5">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +68,7 @@ export default function Navbar() {
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/Mostafa.Rawwash" className="tooltip p-2 tooltip-bottom" target="_blank " aria-label="social-Facebook" data-tip="Facebook" >
+                        <a href="https://www.facebook.com/mostafa.soliman.92372/" className="tooltip p-2 tooltip-bottom" target="_blank " aria-label="social-Facebook" data-tip="Check Out Facebook" >
                             <span class="[&>svg]:h-5 [&>svg]:w-5">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +81,7 @@ export default function Navbar() {
                         </a>
                     </li>
                     <li>
-                        <a href="https://wa.me/201099129550" className="tooltip p-2 tooltip-bottom" target="_blank " aria-label="social-Whats" data-tip="Whats App" >
+                        <a href="https://wa.me/201227865083" className="tooltip p-2 tooltip-bottom" target="_blank " aria-label="social-Whats" data-tip="WhatsApp" >
                             <span class="[&>svg]:h-5 [&>svg]:w-5">
                                 <svg fill="currentColor" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                     viewBox="0 0 308 308" xml:space="preserve">

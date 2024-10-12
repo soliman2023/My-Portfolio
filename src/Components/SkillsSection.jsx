@@ -3,25 +3,25 @@ import React from 'react'
 let skillList = [
   {
     stackName: "Programming Languages",
-    stackTech: ["Node.Js" , "JS", "Python", "C++" , "PHP"]
+    stackTech: ["C++", "JS", "Python", "PHP", "Node.Js" , "Java"]
   },{
-    stackName: "Framme works - Stacks",
-    stackTech: ["MERN", "WordPress", "Frappe"]
+    stackName: "Software Testing",
+    stackTech: ["Java", "Postman", "Selenium", "Playwright", "JMeter", "TestNG", "Robot Framework", "Testlink", "Katalon Studio" ]
+  },{
+    stackName: "Frameworks",
+    stackTech: ["MERN", "Laravel", "Selenium","WordPress", "Frappe"]
   },{
     stackName: "Front-end",
-    stackTech: ["React.JS" , "Jinja","HTML", "CSS", "Bootstrap" , "SCSS" ,"Tailwind" ]
+    stackTech: ["HTML", "CSS", "Bootstrap", "JavaScript", "Jquery", "SCSS", "Tailwind", "React.JS" ]
   },{
     stackName: "Back-end",
-    stackTech: ["Express.js" , "WordPress" , "Flask" , "Restful API" , "postman"]
+    stackTech: ["Node.Js", "Express.js", "PHP", "Laravel", "Restful API", "postman"]
   },{
     stackName: "DataBases",
-    stackTech: ["MongoDB" , "MySQL" , "Mariadb"]
+    stackTech: ["MySQL", "PostgreSQL", "MongoDB", "Mongoose" ]
   },{
-    stackName: "Design",
-    stackTech: ["Figma" , "Adobe XD" , "Bootstrap studio"]
-  },{
-    stackName: "DevOps",
-    stackTech: ["Docker" , "Git" , "Agile","Google Analytics","Google Cloud Run","Google Cloud"]
+    stackName: "Other Tools & Operating Systems",
+    stackTech: ["Git", "Jira", "Trello","Agile", "Ubuntu" , "Kali Linux" , "Windows" ]
   }]
 export default function SkillsSection() {
   return (
@@ -40,7 +40,7 @@ export default function SkillsSection() {
                     return (
                       <li key={liKey} className='flex flex-row-reverse items-center justify-between my-2 '>
                         <figure >
-                          <img src={"/assets/Imgs/Skills/"+ tech + ".png"} className='h-7' alt={tech + ".png"} />
+                          <img src={"src/assets/Imgs/Skills/"+ tech + ".png"} className='h-7' alt={tech + ".png"} />
                         </figure>
                         <h3 className='text-lg font-bold'>
                         {tech}

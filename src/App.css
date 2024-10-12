@@ -72,3 +72,7 @@
 .container {
     width: calc(100% - 20px);
 }
+
+.list{
+  text-align: left;
+}

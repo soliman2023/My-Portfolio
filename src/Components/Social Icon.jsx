@@ -6,7 +6,7 @@ export default function SocialIcon() {
     return (
         <ul className="menu menu-vertical bg-base-300 rounded-box mt-6 fixed z-40 right-0 -translate-x-1/4 mx-auto bottom-5">
             <li>
-                <a href="https://linkedin.com/in/mostafa-rawash" target="_blank" aria-label="social-linkedin" className="tooltip" data-tip="linkedin">
+                <a href="https://www.linkedin.com/in/mostafa-ahmed-soliman/" target="_blank" aria-label="social-linkedin" className="tooltip" data-tip="linkedin">
                     <span class="[&>svg]:h-5 [&>svg]:w-5">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@ export default function SocialIcon() {
             </li>
 
             <li>
-                <a href="https://github.com/Mostafa-Rawash" target="_blank" aria-label="social-github" className="tooltip" data-tip="github">
+                <a href="https://github.com/soliman2023" target="_blank" aria-label="social-github" className="tooltip" data-tip="github">
                     <span class="[&>svg]:h-5 [&>svg]:w-5">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ export default function SocialIcon() {
                 </a>
             </li>
             <li>
-                <a href="https://www.facebook.com/Mostafa.Rawwash" className="tooltip" target="_blank" aria-label="social-Facebook" data-tip="Facebook" >
+                <a href="https://www.facebook.com/mostafa.soliman.92372/" className="tooltip" target="_blank" aria-label="social-Facebook" data-tip="Facebook" >
                     <span class="[&>svg]:h-5 [&>svg]:w-5">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ export default function SocialIcon() {
                 </a>
             </li>
             <li>
-                <a href="https://wa.me/201099129550" className="tooltip" target="_blank" aria-label="social-Whats" data-tip="Whats App" >
+                <a href="https://wa.me/201227865083" className="tooltip" target="_blank" aria-label="social-Whats" data-tip="Whats App" >
                     <span class="[&>svg]:h-5 [&>svg]:w-5">
                         <svg fill="currentColor" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                             viewBox="0 0 308 308" xml:space="preserve">

@@ -15,7 +15,7 @@ export default function Project(props) {
             return (
               <div className="" key={key}>
                 <p className='text-xs'>
-                  <img src={"/assets/Imgs/Skills/" + badge + ".png"} className='w-7 ' alt={badge+".png"} /> {props.name}
+                  <img src={"src/assets/Imgs/Skills/" + badge + ".png"} className='w-7 ' alt={badge+".png"} /> {props.name}
                 </p>
               </div>
             )
@@ -46,7 +46,7 @@ export default function Project(props) {
                 {props.project.gallary && props.project.gallary.map((img, key) => {
                   return (
                     <div className="carousel-item" key={key}>
-                      <img src={"/assets/Imgs/Projects/" + img + ".png"}  alt={img + ".png"}/>
+                      <img src={"src/assets/Imgs/Projects/" + img + ".png"}  alt={img + ".png"}/>
                     </div>
                   )
                 })}
@@ -58,7 +58,7 @@ export default function Project(props) {
               {props.project.badges.map((badge, key) => {
                 return (
                   <div className="py-4 p-3 z-50" key={key}>
-                    <img src={"/assets/Imgs/Skills/" + badge + ".png" } alt={badge + ".png"}  className='w-7  ' /> {props.name}
+                    <img src={"src/assets/Imgs/Skills/" + badge + ".png" } alt={badge + ".png"}  className='w-7  ' /> {props.name}
                   </div>
                 )
               })}

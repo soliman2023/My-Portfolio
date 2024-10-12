@@ -6,7 +6,8 @@ import SocialIcon from "./Components/Social Icon.jsx"
 import Projects from "./Components/Projects.jsx"
 import SkillsSection from "./Components/SkillsSection.jsx"
 import WorkExperience from "./Components/WorkExperience.jsx"
-
+import VolunteeringExperience from "./Components/VolunteeringExperience.jsx"
+import Footer from './Components/Footer.jsx'
 
 import "./App.css";
 
@@ -18,8 +19,10 @@ function App() {
       <HeroSection />
       <SkillsSection/>
       <WorkExperience />
+      <VolunteeringExperience />
       <Projects />
       <SocialIcon />
+      <Footer />
     </>
   )
 }
